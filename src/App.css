@@ -1,38 +1,78 @@
-.App {
+
+
+.Navbarr {
+  background-color:deeppink;
+}
+/* css objet profil*/
+ h1{
+  color: blue;
+  padding-top: 50px;
+  font-family: cursive;
+  font-size:larger;
+ }
+ h4{
+  color: blue;
+  font-family: cursive;
+ }
+ .actu{
+  color:orangered;
+  font-family: cursive;
+  padding-top: 50px;
+ }
+ /* partie products*/
+ .body{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  margin-bottom: 100px; 
+ }
+ .accessoires{
+  margin-top: 80px ;
+ }
+ .makeup{
+  margin-top: 60px ;
+ }
+ .btn11{
+  display:block;
+  justify-content:space-around;
+  margin-left: 50px;
+  margin-top: 80px;
+ }
+
+ .btn22{
+  display:block;
+  justify-content:space-around;
+ }
+
+ .btn1{
+
+  background-color: #EA4C89;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 500;
+  height: 50px;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 16px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn2{
+  
+    background-color: #EA4C89;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    text-align: center;
+  
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
